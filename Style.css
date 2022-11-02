@@ -1,0 +1,82 @@
+body{
+box-sizing: border-box;
+max-width: 600px;
+background-color: rgb(235, 252, 210);
+margin: auto;
+}
+
+#id1{
+    width: 600px;
+    border: 1px solid black;
+    height: 500px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.screen{
+    
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 5, 9);
+    font-size: 40px;
+}
+
+.operator{
+
+    background-color: orange;
+    color: black;
+
+}
+
+.number-buttons{
+    display: flex;
+    flex-direction:row;
+    gap: 5px;
+    margin-bottom: 5px;
+
+}
+
+.number-buttons>button{
+    width: 80px;
+    height: 80px;
+}
+
+.operation-button>button{
+
+    gap: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.operation-button{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+
+.cero{
+    width: 80px;
+    height: 80px;
+    background-color:rgb(255, 255, 255);
+    color: black;
+}
+
+.doblewidth{
+    width: 160px;
+    height: 80px;
+    background-color: rgb(255, 81, 0);
+    color: black;
+}
+
