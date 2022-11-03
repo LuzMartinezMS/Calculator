@@ -1,82 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
-box-sizing: border-box;
-max-width: 600px;
-background-color: rgb(235, 252, 210);
-margin: auto;
+    color: blue;
+    box-sizing: border-box;
+    max-width: 450px;
+    margin: 0 auto ;
+    background-color: rgb(47, 51, 51);
 }
-
 #id1{
-    width: 600px;
+    width: auto;
+    margin: 0 auto;
     border: 1px solid black;
-    height: 500px;
+
     border-radius: 5px;
-    margin-top: 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
 }
-
-.screen{
-    
-    width: 600px;
-    height: 80px;
-    margin: auto;
-    text-align: right;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 5, 9);
-    font-size: 40px;
+#igual{
+    width: 200px;
 }
-
-.operator{
-
-    background-color: orange;
+.demo{
     color: black;
+}
+button{
+    font-size: 30px;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 40px;
+    border-color: transparent;
+    background-color: rgb(83, 87, 103);
+    color: white;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(15, 15, 15, 0.45);
+    height: 80px;
 
 }
-
-.number-buttons{
+p.screen{
+    font-size: 50px;
+    text-align: right;
+    padding: 0 15px;
+    margin: 15px 0;
+    color: white;
+}
+.operator{
+    color: rgb(137, 235, 255);
+    background-color: rgb(40, 67, 177);
+    font-weight: bold;
+}
+.number_buttons{
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     gap: 5px;
     margin-bottom: 5px;
-
 }
-
-.number-buttons>button{
-    width: 80px;
-    height: 80px;
-}
-
-.operation-button>button{
-
-    gap: 5px;
-    width: 80px;
-    height: 80px;
-}
-
-.operation-button{
+.operation_buttons{
     display: flex;
     flex-direction: column;
     gap: 5px;
-
+    margin-bottom: 5px;
+    align-items: right;
 }
-
 .buttons{
     display: flex;
     flex-direction: row;
     gap: 5px;
-    justify-content: center;
+    background-color: rgb(44, 54, 75);
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(15, 15, 15, 0.45);
 }
-
-.cero{
-    width: 80px;
-    height: 80px;
-    background-color:rgb(255, 255, 255);
-    color: black;
+button:hover{
+    background-color: rgb(63, 73, 97);
 }
-
-.doblewidth{
-    width: 160px;
-    height: 80px;
-    background-color: rgb(255, 81, 0);
-    color: black;
+.operator:hover{
+    background-color: rgb(34, 57, 149);
 }
-
